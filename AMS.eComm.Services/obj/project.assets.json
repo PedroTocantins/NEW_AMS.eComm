@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "AMS.eComm.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AMS.eComm.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AMS.eComm.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AMS.eComm.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AMS.eComm.Domain/AMS.eComm.Domain.csproj",
+      "msbuildProject": "../AMS.eComm.Domain/AMS.eComm.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AMS.eComm.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pedro\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\AMS.eComm\\AMS.eComm\\AMS.eComm.Services\\AMS.eComm.Services.csproj",
+      "projectName": "AMS.eComm.Services",
+      "projectPath": "C:\\AMS.eComm\\AMS.eComm\\AMS.eComm.Services\\AMS.eComm.Services.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "C:\\AMS.eComm\\AMS.eComm\\AMS.eComm.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\AMS.eComm\\AMS.eComm\\AMS.eComm.Domain\\AMS.eComm.Domain.csproj": {
+              "projectPath": "C:\\AMS.eComm\\AMS.eComm\\AMS.eComm.Domain\\AMS.eComm.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
